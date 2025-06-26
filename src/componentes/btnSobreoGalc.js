@@ -1,15 +1,19 @@
-import './btnSobreoGalc.css'
+import { useNavigate } from 'react-router-dom';
+import './btnSobreoGalc.css';
 
 function BtnSobreoGalc() {
-    return (
-        <div className="btnPai">
-        
-            <button className="btnSobreoGalc">
-                <span className="btnTexto">Sobre o Galc</span>
-            </button>
+  const navigate = useNavigate(); // Hook de navegação
+  const irParaSobreGalc = () => {
+    navigate('/sobre-galc'); // rota que vamos definir nas rotas
+  }
 
-        </div>
-            
-    )
-}
-export default BtnSobreoGalc
+  return (
+    <div className="btnPai">
+      <button className="btnSobreoGalc" onClick={irParaSobreGalc}>
+        Sobre o Galc 🚀
+      </button>
+    </div>
+  );
+};
+
+export default BtnSobreoGalc;

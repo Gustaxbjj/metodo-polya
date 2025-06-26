@@ -1,0 +1,11 @@
+body{
+    background-color: #5F8FE7;
+}
+
+.logo{
+   /* border: solid 2px #000;*/
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+
+}

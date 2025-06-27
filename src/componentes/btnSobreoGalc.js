@@ -10,7 +10,7 @@ function BtnSobreoGalc() {
   return (
     <div className="btnPai">
       <button className="btnSobreoGalc" onClick={irParaSobreGalc}>
-        Sobre o Galc 🚀
+         Galc
       </button>
     </div>
   );

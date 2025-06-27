@@ -6,6 +6,7 @@ body{
     /*border: solid 2px #000;*/
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 50px;
   
 }
@@ -13,15 +14,25 @@ body{
 .logoPai{
    /* border: solid 2px #000;*/
     border-radius: 15px;
-    background-color: rgba(245, 245, 245, 0.889);
+    background-color: #5F8FE7;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;    
-    width: 100%;
+    justify-content:space-between ;
+    align-items: center;
+    width: 61%;
     height: 300px;
+    padding:15px ;
 }
 
+.logoIfal{
+    /*border: solid 2px #000;*/
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    height: 190px;
+
+
+}
 .logo{
     /*border: solid 2px #000;*/
     display: flex;

@@ -1,6 +1,7 @@
 import './Home.css';
 import BtnSobreoGalc from '../componentes/btnSobreoGalc';
-import LogoGalc from '../img/logo-galc.png';
+import LogoGalc from '../img/logo-galc (2).png';
+import logoifal from '../img/logo-ifal.jpg';
 import TextHome from '../componentes/textHome';
 import Metodo from '../componentes/Metodo';
 import Resolucao from '../componentes/Rosolucao';
@@ -10,6 +11,8 @@ function Home() {
     <div className='home'>
 
             <div className='logoPai'>
+
+               <img className="logoIfal" src={logoifal} alt="Logoifal" />  
                <img className="logo" src={LogoGalc} alt="LogoGalc" />          
             </div>
 

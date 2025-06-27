@@ -1,20 +1,20 @@
-//import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Resolucao.css';
 
-function btnMetodo() {
-  //const navigate = useNavigate(); // Hook de navegação
-  //const irParaMetodo = () => {
-    //navigate('/sobre-galc/metodo'); // rota que vamos definir nas rotas
-   //  onClick={irParaMetodo}
-  
+function Resolucao() {
+  const navigate = useNavigate();
+
+  const irParaResolucao = () => {
+    navigate('/sobre-galc/resolucao');
+  };
 
   return (
     <div className="btnPai">
-      <button className="btnMetodo">
-        Metodo de Polya 
+      <button className="btnMetodo" onClick={irParaResolucao}>
+        Metodo
       </button>
     </div>
   );
-};
+}
 
-export default btnMetodo;
+export default Resolucao;

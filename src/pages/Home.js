@@ -1,7 +1,7 @@
 import './Home.css';
 import BtnSobreoGalc from '../componentes/btnSobreoGalc';
-import LogoGalc from '../img/logo-galc (2).png';
-import logoifal from '../img/logo-ifal.jpg';
+import LogoGalc from '../img/logo-galc.png';
+import logoifal from '../img/ifal-riolargo.png';
 import TextHome from '../componentes/textHome';
 import Metodo from '../componentes/Metodo';
 import Resolucao from '../componentes/Rosolucao';

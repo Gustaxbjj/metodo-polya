@@ -1,17 +1,18 @@
+// src/pages/Resolucao.js
 import { useNavigate } from 'react-router-dom';
 import './Resolucao.css';
 
 function Resolucao() {
   const navigate = useNavigate();
 
-  const irParaResolucao = () => {
-    navigate('/sobre-galc/resolucao');
+  const irParaProblemas = () => {
+    navigate('/problemas'); // agora bate com a rota
   };
 
   return (
     <div className="btnPai">
-      <button className="btnMetodo" onClick={irParaResolucao}>
-        Metodo
+      <button className="btnProblema" onClick={irParaProblemas}>
+        Problemas
       </button>
     </div>
   );

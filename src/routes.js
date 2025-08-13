@@ -2,15 +2,15 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
-import SobreGalc from './pages/SobreGalc';
-import Metodo from './componentes/Metodo';
+import Problemas from './pages/Problemas';
+
 
 function MainRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/sobre-galc" element={<SobreGalc />} />
-      <Route path="/sobre-galc/metodo" element={<Metodo />} />
+      <Route path="/problemas" element={<Problemas />} />
+
     </Routes>
   );
 }

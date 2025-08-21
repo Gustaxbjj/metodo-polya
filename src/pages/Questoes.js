@@ -1,20 +1,21 @@
-import './Questoes.css';
-import BntEq1 from '../componentes/btnEq1';
-import LogoGalc from '../img/logo-galc-_2_.svg';
-import TextQtoes from '../componentes/textQtoes'
+import './QuestoesGrau1.css';
 
-function Questoes() {
+import LogoGalc from '../img/logo-galc-_2_.svg';
+import TextQtoes from '../componentes/textQtoes';
+import BtnQ1 from '../componentes/primeiroGrau/equa1js/btnQ1';
+
+function QuestoesGrau1() {
   return (
     <div className='homeQtoes'>
 
      <div className='logoPaiPro'>
                <img className="logo" src={LogoGalc} alt="LogoGalc" />   
-     </div>
+     </div >
            <TextQtoes />
-          
-
+              <BtnQ1/>
     </div>
-  );
+  
+);
 }
 
-export default Questoes;
+export default QuestoesGrau1;

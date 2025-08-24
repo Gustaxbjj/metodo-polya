@@ -1,18 +1,18 @@
 import './QuestoesGrau1.css';
 
-import LogoGalc from '../img/logo-galc-_2_.svg';
-import TextQtoes from '../componentes/textQtoes';
-import BtnQ1 from '../componentes/primeiroGrau/equa1js/btnQ1';
 
+import TextQtoes from '../componentes/textQtoes';
+import  BtnQnUm from '../componentes/primeiroGrau/equa1js/btnQnUm';
+import galcImg from '../img/galcImg.png';
 function QuestoesGrau1() {
   return (
     <div className='homeQtoes'>
 
-     <div className='logoPaiPro'>
-               <img className="logo" src={LogoGalc} alt="LogoGalc" />   
+     <div className='logoPai'>
+                 <img className="logoGpro" src={galcImg} alt="" /> 
      </div >
            <TextQtoes />
-              <BtnQ1/>
+          < BtnQnUm/>
     </div>
   
 );

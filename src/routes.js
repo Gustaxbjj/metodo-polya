@@ -11,6 +11,7 @@ function MainRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/problemas" element={<Problemas />} />
        <Route path="/questoes" element={<Questoes/>} />
+       
     </Routes>
   );
 }

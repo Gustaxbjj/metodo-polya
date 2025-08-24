@@ -1,20 +1,20 @@
 import { useNavigate } from 'react-router-dom';
 import '../eq1css/q1.css'
 
-function BtnQ1() {
+function BtnQnUm() {
   const navigate = useNavigate();
 
-  const irParaQuestao = () => {
+  const irParaQuestaoUm = () => {
     navigate('/sobre-galc/metodo');
   };
 
   return (
     <div className="btnPai">
-      <button className="btnquestao" onClick={irParaQuestao}>
+      <button className="btnquestao" onClick={irParaQuestaoUm}>
         Questão 1
       </button>
     </div>
   );
 }
 
-export default BtnQ1;
+export default BtnQnUm;

@@ -1,7 +1,9 @@
-body{
+body {
     background-color: #5F8FE7;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
-
 .home{
     /*border: solid 2px #000;*/
     display: flex;
@@ -10,40 +12,38 @@ body{
     gap: 50px;
   
 }
-
-.logoPai{
-   /* border: solid 2px #000;*/
+.logoPai {
     border-radius: 15px;
     background-color: #5F8FE7;
     display: flex;
-    flex-direction: row;
-    justify-content:space-between ;
     align-items: center;
-    width: 61%;
-    height: 300px;
-    padding:15px ;
+    width: 100vw;      /* largura total da tela */
+    height: 200px;
+    padding: 0;        /* sem padding */
+    margin: 0;         /* sem margem */
+    position: relative;
+}
+.logoIfal {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    left: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
 }
 
-.logoIfal{
-    /*border: solid 2px #000;*/
-    display: flex;
-    flex-direction: row;
-    width: 170px;
-    height: 190px;
-
-
-}
-.logo{
-    /*border: solid 2px #000;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;    
-    width: 350px;
-    height: 300px;
+.logo {
+    width: 250px;
+    height: auto;
     padding: 20px;
     border-radius: 100%;
-
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 .PaiButton{

@@ -13,7 +13,8 @@ function Home() {
             <div className='logoPai'>
 
                <img className="logoIfal" src={logoifal} alt="Logoifal"  color='white'/>  
-               <img className="logo" src={LogoGalc} alt="LogoGalc" />          
+               <img className="logo" src={LogoGalc} alt="LogoGalc" />
+             
             </div>
 
             <TextHome/>          

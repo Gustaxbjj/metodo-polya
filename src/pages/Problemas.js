@@ -1,17 +1,18 @@
 // src/pages/Problemas.js
 import './Problemas.css';
+import galcImg from '../img/galcImg.png';
 import BntEq1 from '../componentes/btnEq1';
-import LogoGalc from '../img/logo-galc-_2_.svg';
 import TextProblemas from '../componentes/textProblemas';
 
 function Problemas() {
   return (
     <div className='homePro'>
 
-            <div className='logoPaiPro'>
-               <img className="logo" src={LogoGalc} alt="LogoGalc" />   
-     </div>
+            <div className='.logoQtoesg1'>
+                 <img className="logoGpro" src={galcImg} alt="" />
+             </div>
           <TextProblemas/>   
+
            <BntEq1/>
 
     </div>

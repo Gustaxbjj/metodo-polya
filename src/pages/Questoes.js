@@ -1,6 +1,4 @@
 import './QuestoesGrau1.css';
-
-
 import TextQtoes from '../componentes/textQtoes';
 import  BtnQnUm from '../componentes/primeiroGrau/equa1js/btnQnUm';
 import galcImg from '../img/galcImg.png';

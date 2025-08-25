@@ -1,7 +1,8 @@
 import './Home.css';
 import BtnSobreoGalc from '../componentes/btnSobreoGalc';
-import LogoGalc from '../img/logo-galc-_2_.svg';
-import logoifal from '../img/logo-ifal.svg';
+import galcImg from '../img/galcImg.png';
+import ifalImg from '../img/IfaliMG.png';
+
 import TextHome from '../componentes/textHome';
 import Metodo from '../componentes/Metodo';
 import Resolucao from '../componentes/Rosolucao';
@@ -12,8 +13,8 @@ function Home() {
 
             <div className='logoPai'>
 
-               <img className="logoIfal" src={logoifal} alt="Logoifal"  color='white'/>  
-               <img className="logo" src={LogoGalc} alt="LogoGalc" />
+               <img className="logoIfal" src={ifalImg} alt=""/>  
+                 <img className="logoGpro" src={galcImg} alt="" /> 
              
             </div>
 
